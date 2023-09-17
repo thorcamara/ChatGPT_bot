@@ -18,3 +18,24 @@ body {
   border-bottom: 1px solid #5c5c66;
   height: 45px;
 }
+
+.header h3 {
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.container {
+  max-width: 920px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 20;
+}
