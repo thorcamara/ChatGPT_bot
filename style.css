@@ -92,3 +92,17 @@ body {
   margin-left: 15px;
   transition: all 0.3s ease;
 }
+
+#send-button:hover {
+  background-color: #388e3c;
+}
+
+.chat-container {
+  flex: 1;
+}
+
+.chat-box {
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+}
