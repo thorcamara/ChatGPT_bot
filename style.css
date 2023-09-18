@@ -39,3 +39,25 @@ body {
   justify-content: center;
   flex: 20;
 }
+
+.info a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.info a:hover {
+  color: #4caf50;
+}
+
+.input-container {
+  background-color: #343541;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #5c5c66;
+  position: sticky;
+  bottom: 0;
+}
