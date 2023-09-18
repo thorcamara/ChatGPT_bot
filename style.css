@@ -128,3 +128,17 @@ body {
   padding: 15px 7px 15px 10px;
   border-radius: 6px;
 }
+
+.bot {
+  background-color: #444654;
+}
+
+#chat-log #user-icon i {
+  background-color: #19c37d;
+  padding: 10px 11px;
+}
+
+#chat-log #bot-icon i {
+  background-color: #9859b7;
+  padding: 10px 8px 11px;
+}
