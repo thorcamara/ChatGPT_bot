@@ -61,3 +61,34 @@ body {
   position: sticky;
   bottom: 0;
 }
+
+#user-input {
+  background-color: #40414f;
+  color: #fff;
+  border: none;
+  outline: none;
+  padding: 8px;
+  flex: 9;
+  font-size: 14px;
+  font-weight: 400;
+  border-radius: 5px;
+}
+
+#user-input::placeholder {
+  color: #8e8e8e;
+  font-weight: 400;
+}
+
+#send-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4caf50;
+  color: #fff;
+  cursor: pointer;
+  margin-left: 15px;
+  transition: all 0.3s ease;
+}
