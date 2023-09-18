@@ -106,3 +106,25 @@ body {
   align-items: center;
   padding: 10px 15px;
 }
+
+#chat-log {
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+#chat-log i {
+  margin-right: 10px;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.bot,
+.user {
+  display: flex;
+  align-items: flex-start;
+  color: #eee;
+  width: 100%;
+  padding: 15px 7px 15px 10px;
+  border-radius: 6px;
+}
